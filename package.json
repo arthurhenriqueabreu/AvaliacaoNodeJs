@@ -1,10 +1,11 @@
 {
   "name": "avaliacaonodejs",
   "version": "1.0.0",
-  "description": "Avaliação",
+  "description": "aula revisao professor jp2024",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "dev": "node --watch index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/arthurhenriqueabreu/AvaliacaoNodeJs#readme",
   "dependencies": {
-    "hapi": "^18.1.0"
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }

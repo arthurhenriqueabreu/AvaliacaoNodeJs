@@ -1,2 +1,12 @@
 # AvaliacaoNodeJs
-Avaliação do Jovem Programador 2024 sobre NodeJs
+Revisao
+
+# Ordem de criação dos arquivos
+
+index.js
+src
+|-routers
+|-controllers
+|-services
+|-models(não na recuperação)
+tests
